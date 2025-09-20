@@ -16,6 +16,7 @@ The image of installed tools
 Iverilog Installation
 sudo apt-get update
 sudo apt-get install iverilog
+<img width="894" height="555" alt="yosys" src="https://github.com/user-attachments/assets/f130d777-c6ff-4884-803f-40cb0ee4c332" />
 
 gtkwave
 sudo apt-get update
@@ -29,6 +30,8 @@ cd release
 ../configure --with-x --with-readline=yes --disable-debug
 make
 sudo make install
+<img width="890" height="557" alt="ngspice" src="https://github.com/user-attachments/assets/774755bb-f64b-4d99-8173-fa9913857fd3" />
+
 Magic Installation
 sudo apt-get install m4
 sudo apt-get install tcsh
@@ -43,6 +46,8 @@ cd magic
 ./configure
 make
 make install
+<img width="905" height="558" alt="magic" src="https://github.com/user-attachments/assets/17ee40dd-5bf4-4929-88ee-b36691046864" />
+
 
 
 Openlane
@@ -66,6 +71,8 @@ git clone https://github.com/The-OpenROAD-Project/OpenLane
 cd OpenLane
 make
 make test
+<img width="883" height="556" alt="Openlane" src="https://github.com/user-attachments/assets/9c0c3c92-4925-4aa7-af17-107b650ee78f" />
+
 
 
 
