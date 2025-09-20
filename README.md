@@ -16,7 +16,8 @@ The image of installed tools
 Iverilog Installation
 sudo apt-get update
 sudo apt-get install iverilog
-<img width="894" height="555" alt="yosys" src="https://github.com/user-attachments/assets/f130d777-c6ff-4884-803f-40cb0ee4c332" />
+![yosys](https://github.com/user-attachments/assets/f130d777-c6ff-4884-803f-40cb0ee4c332)
+
 
 gtkwave
 sudo apt-get update
