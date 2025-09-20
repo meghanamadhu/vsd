@@ -12,7 +12,7 @@ libboost-python-dev libboost-filesystem-dev zlib1g-dev
 make config-gcc
 make
 sudo make install
-
+![yosys](yosys.png)
 Iverilog Installation
 sudo apt-get update
 sudo apt-get install iverilog
