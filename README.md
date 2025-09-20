@@ -44,6 +44,7 @@ cd magic
 make
 make install
 
+
 Openlane
 sudo apt-get update
 sudo apt-get upgrade
