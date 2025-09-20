@@ -13,73 +13,8 @@ make config-gcc
 make
 sudo make install
 
+
 <img width="883" height="556" alt="Openlane" src="https://github.com/user-attachments/assets/185fa829-67f7-450f-bac0-ce6b8049b6e9" />
-
-Iverilog Installation
-sudo apt-get update
-sudo apt-get install iverilog
-
-
-
-gtkwave
-sudo apt-get update
-sudo apt install gtkwave
-
-ngspice
-tar -zxvf ngspice-37.tar.gz
-cd ngspice-37
-mkdir release
-cd release
-../configure --with-x --with-readline=yes --disable-debug
-make
-sudo make install
-
-
-Magic Installation
-sudo apt-get install m4
-sudo apt-get install tcsh
-sudo apt-get install csh
-sudo apt-get install libx11-dev
-sudo apt-get install tcl-dev tk-dev
-sudo apt-get install libcairo2-dev
-sudo apt-get install mesa-common-dev libglu1-mesa-dev
-sudo apt-get install libncurses-dev
-git clone https://github.com/RTimothyEdwards/magic
-cd magic
-./configure
-make
-make install
-
-Openlane
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt install -y build-essential python3 python3-venv python3-pip make git
-sudo apt install apt-transport-https ca-certificates curl software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o
-/usr/share/keyrings/docker-archive-keyring.gpg
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg]
-https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee
-/etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt update
-sudo apt install docker-ce docker-ce-cli containerd.io
-sudo docker run hello-world
-sudo groupadd docker
-sudo usermod -aG docker $USER
-sudo reboot
-cd $HOME
-git clone https://github.com/The-OpenROAD-Project/OpenLane
-cd OpenLane
-make
-make test
-
-All the screenshots of Installed Images are attached.
-
-
-
-
-
-
-
 
 
 
