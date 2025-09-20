@@ -12,7 +12,8 @@ libboost-python-dev libboost-filesystem-dev zlib1g-dev
 make config-gcc
 make
 sudo make install
-![yosys](yosys.png)
+<img width="883" height="556" alt="Openlane" src="https://github.com/user-attachments/assets/185fa829-67f7-450f-bac0-ce6b8049b6e9" />
+
 Iverilog Installation
 sudo apt-get update
 sudo apt-get install iverilog
